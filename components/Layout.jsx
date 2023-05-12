@@ -1,13 +1,13 @@
 import React from 'react'
-import { Header } from './Header'
+import { Header } from './'
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      {children}  
-    </>
-  )
+    return (
+        <>
+            <Header />
+            {children}
+        </>
+    )
 }
 
 export default Layout
