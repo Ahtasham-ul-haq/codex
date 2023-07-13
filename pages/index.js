@@ -3,17 +3,12 @@ import { PostCard, Categories, PostWidget } from "@/components";
 import { getPosts } from "../services";
 import { FeaturedPosts } from '../sections'
 
-// const posts = [
-//   { title: "React Testing", excerpt: "Learn React Testing" },
-//   { title: "React with Tailwind", excerpt: "Learn React with tailwind" },
-// ];
-
 export default function Home({ posts }) {
   return (
     <div className="container mx-auto px-10 m-8">
       <Head>
         <title>Codex</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicons.ico" />
       </Head>
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
